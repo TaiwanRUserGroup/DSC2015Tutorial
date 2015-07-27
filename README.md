@@ -42,7 +42,7 @@ Ubuntu 14.04 的使用者可以在 bash 執行以下指令來安裝學習環境:
 請在R 的Console執行以下指令：
 
 ```r
-install.packages(c("swirl", "dplyr", "ggplot2"), repos = "http://taiwanrusergroup.github.io/R")
+install.packages("DSC2015R", repos = "http://taiwanrusergroup.github.io/R")
 ```
 
 ## 使用雲端學習平台
