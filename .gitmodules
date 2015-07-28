@@ -1,3 +1,6 @@
 [submodule "DSC2015R/inst/visualization"]
 	path = DSC2015R/inst/visualization
 	url = https://github.com/everdark/ggplot2_lecture_dsc2015
+[submodule "DSC2015R/inst/basic/swirl"]
+	path = DSC2015R/inst/basic/swirl
+	url = https://github.com/dboyliao/DSC2015_RBasic.git
