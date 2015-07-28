@@ -47,6 +47,29 @@ Ubuntu 14.04 的使用者可以在 bash 執行以下指令來安裝學習環境:
 install.packages("DSC2015R", repos = "http://taiwanrusergroup.github.io/R")
 ```
 
+### 安裝swirl課程
+
+```r
+library(DSC2015R)
+install_course()
+```
+
+### 打開課程投影片
+
+```r
+library(DSC2015R)
+slide()
+```
+
+執行後會出現如下畫面:
+
+```sh
+> slide()
+1: R swirl (DBoy) 2: R Basic (Ning) 3: R Basic (Noah)
+4: R ETL (aha) 5: Visualization (Kyle, Mansun, Ben)
+```
+
+請依照指示輸入你想要打開的課程投影片即可。例如，若你想要打開R ETL (aha)的投影片，請輸入`4`。
 ## 使用雲端學習平台
 
 平台籌備中...
