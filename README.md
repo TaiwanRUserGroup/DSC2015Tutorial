@@ -1,5 +1,22 @@
 # R 語言資料分析上手課程
 
+Table of Contents
+=================
+
+  * [R 語言資料分析上手課程](#r-語言資料分析上手課程)
+    * [準備自己的電腦](#準備自己的電腦)
+      * [安裝R](#安裝r)
+        * [Windows](#windows)
+        * [Mac](#mac)
+        * [Ubuntu](#ubuntu)
+      * [安裝課程所需套件](#安裝課程所需套件)
+      * [安裝swirl課程](#安裝swirl課程)
+      * [打開課程投影片](#打開課程投影片)
+    * [使用雲端學習平台](#使用雲端學習平台)
+  * [Table of Contents](#table-of-contents)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
+
 **最新DSC2015R套件版本: 0.2**
 
 這次年會，我們提供兩種讓學員在課程之中使用R 的方式:
