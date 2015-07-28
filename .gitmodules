@@ -4,3 +4,9 @@
 [submodule "DSC2015R/inst/basic/swirl"]
 	path = DSC2015R/inst/basic/swirl
 	url = https://github.com/dboyliao/DSC2015_RBasic.git
+[submodule "DSC2015R/inst/etl/slide"]
+	path = DSC2015R/inst/etl/slide
+	url = https://github.com/ntuaha/R_ETL_DSC_2015
+[submodule "DSC2015R/inst/etl/swirl"]
+	path = DSC2015R/inst/etl/swirl
+	url = https://github.com/ntuaha/DSC_R_ETL_SWIRL_2015
