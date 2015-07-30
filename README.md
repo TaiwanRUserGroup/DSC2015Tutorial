@@ -14,7 +14,6 @@
       * [打開課程投影片](#打開課程投影片)
     * [使用Docker環境](#使用docker環境)
     * [使用雲端學習平台](#使用雲端學習平台)
-  * [Table of Contents](#table-of-contents)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
