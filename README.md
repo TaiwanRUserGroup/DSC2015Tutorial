@@ -101,6 +101,23 @@ slide()
 ```
 
 請依照指示輸入你想要打開的課程投影片即可。例如，若你想要打開R ETL (aha)的投影片，請輸入`4`。
+
+## 使用Docker環境
+
+```sh
+docker pull twrusergroup/dsc2015tutorial
+docker run -d -p 8787:8787 twrusergroup/dsc2015tutorial
+
+```
+
+使用瀏覽器開啟 http://localhost:8787/
+
+帳號密碼如下
+
+- username: rstudio
+- password: rstudio
+
+
 ## 使用雲端學習平台
 
 平台籌備中...
