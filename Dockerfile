@@ -1,7 +1,8 @@
 FROM rocker/rstudio
 
-ADD init.R /tmp/init.R
+MAINTAINER Chih-Cheng Liang and Wush Wu
 
-RUN apt-get update && apt-get install -y libcurl4-openssl-dev libxml2-dev espeak
-RUN cd /tmp && Rscript init.R
-RUN cd /tmp && rm init.R
+COPY init.R /tmp/init.R
+RUN apt-get update && apt-get install -y libcurl4-openssl-dev libxml2-dev
+RUN cd /tmp && Rscript init.R && rm init.R
+
