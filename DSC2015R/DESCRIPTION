@@ -1,7 +1,7 @@
 Package: DSC2015R
 Type: Package
 Title: Materials for R Workshop in Data Science Conference in Taiwan 2015
-Version: 0.2
+Version: 0.2.1
 Date: 2015-07-27
 Author: Wush Wu
 Maintainer: Wush Wu <wush978@gmail.com>

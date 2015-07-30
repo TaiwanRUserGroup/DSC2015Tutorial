@@ -8,11 +8,11 @@ install_course <- function() {
     dir.create(get_swirl_option("courses_dir"), recursive = TRUE)
   }
   cat("Installing swirl course for R basic...\n")
-  install_course_directory(pkg_file("basic/swirl/RBasic"))
+  install_course_directory(pkg_file("basic/swirl/DSC2015"))
   cat("Installing swirl course for R ETL\n")
-  install_course_directory(pkg_file("etl/swirl"))
+  install_course_directory(pkg_file("etl/swirl/DSC2015"))
   cat("Installing swirl course for R Visualization\n")
-  install_course_directory(pkg_file("visualization/swirl"))
+  install_course_directory(pkg_file("visualization/DSC2015"))
 }
 
 slide <- function() {

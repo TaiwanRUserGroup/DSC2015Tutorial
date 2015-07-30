@@ -17,7 +17,7 @@
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
-**最新DSC2015R套件版本: 0.2**
+**最新DSC2015R套件版本: 0.2.1**
 
 這次年會，我們提供兩種讓學員在課程之中使用R 的方式:
 
