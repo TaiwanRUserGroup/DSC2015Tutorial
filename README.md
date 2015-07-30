@@ -61,7 +61,21 @@ Ubuntu 14.04 的使用者可以在 bash 執行以下指令來安裝學習環境:
 請在R 的Console執行以下指令：
 
 ```r
-install.packages("DSC2015R", repos = "http://taiwanrusergroup.github.io/R")
+source("http://taiwanrusergroup.github.io/R/init.R")
+```
+
+或是
+
+```r
+options(repos = "http://taiwanrusergroup.github.io/R")
+local({
+  install.packages('DSC2015R')
+  pkgs.remote <- available.packages()
+  pkgs.local <- installed.packages()
+  pkgs <- intersect(rownames(pkgs.remote), rownames(pkgs.local))
+  pkgs.outdated <- package_version(pkgs.local[pkgs, "Version"]) < package_version(pkgs.remote[pkgs, "Version"])
+  if (sum(pkgs.outdated) > 0) install.packages(names(which(pkgs.outdated)))
+})
 ```
 
 ### 安裝swirl課程
