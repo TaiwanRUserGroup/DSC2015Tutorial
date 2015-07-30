@@ -12,6 +12,7 @@
       * [安裝課程所需套件](#安裝課程所需套件)
       * [安裝swirl課程](#安裝swirl課程)
       * [打開課程投影片](#打開課程投影片)
+    * [使用Docker環境](#使用Docker環境)
     * [使用雲端學習平台](#使用雲端學習平台)
   * [Table of Contents](#table-of-contents)
 
@@ -107,10 +108,9 @@ slide()
 ```sh
 docker pull twrusergroup/dsc2015tutorial
 docker run -d -p 8787:8787 twrusergroup/dsc2015tutorial
-
 ```
 
-使用瀏覽器開啟 http://localhost:8787/
+使用瀏覽器開啟 <http://localhost:8787/>
 
 帳號密碼如下
 
