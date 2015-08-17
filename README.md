@@ -58,7 +58,7 @@ Ubuntu 14.04 的使用者可以在 bash 執行以下指令來安裝學習環境:
 
 ### 安裝課程所需套件
 
-請在R 的Console執行以下指令：
+安裝前，請重新啟動Rsession。重新啟動之後，請在R 的Console執行以下指令：
 
 ```r
 source("http://taiwanrusergroup.github.io/R/init.R")
