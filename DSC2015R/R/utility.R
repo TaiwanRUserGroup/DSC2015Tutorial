@@ -18,9 +18,13 @@ install_course <- function() {
 slide <- function() {
   cat("1: R swirl (DBoy) 2: R Basic (Ning) 3: R Basic (Noah)\n4: R ETL (aha) 5: Visualization (Kyle, Mansun, Ben)\n")
   switch(readline(),
-         "1" = browseURL(pkg_file("basic/swirl/index.html")),
-         "2" = browseURL(pkg_file("basic/ForBasicSharing.html")),
-         "3" = stop("TODO"),
+         "1" = browseURL(pkg_file("basic/swirl/slides/RBasic0.html")),
+         "2" = browseURL(pkg_file("basic/swirl/slides/RBasic1.html")),
+         "3" = browseURL(pkg_file("basic/swirl/slides/RBasic2.html")),
          "4" = browseURL(pkg_file("etl/slide/index.html")),
          "5" = browseURL(pkg_file("visualization/index.html")))
+}
+
+demo_project <- function() {
+  browseURL(pkg_file("project/demo1.R"))
 }
