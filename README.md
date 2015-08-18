@@ -60,6 +60,8 @@ Ubuntu 14.04 的使用者可以在 bash 執行以下指令來安裝學習環境:
 
 安裝前，請重新啟動Rsession。重新啟動之後，請在R 的Console執行以下指令：
 
+#### 使用 Github Repository
+
 ```r
 source("http://taiwanrusergroup.github.io/R/init.R")
 ```
@@ -76,6 +78,15 @@ local({
   pkgs.outdated <- package_version(pkgs.local[pkgs, "Version"]) != package_version(pkgs.remote[pkgs, "Version"])
   if (sum(pkgs.outdated) > 0) install.packages(names(which(pkgs.outdated)))
 })
+```
+
+#### 使用 140.112.170.196 Repository
+
+我們準備了分流網站，以避免當天github服務失效：
+
+```r
+options("DSC2015-repo" = "140.112.170.196")
+source("http://140.112.170.196/R/init.R")
 ```
 
 ### 安裝swirl課程
