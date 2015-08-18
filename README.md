@@ -60,6 +60,8 @@ Ubuntu 14.04 的使用者可以在 bash 執行以下指令來安裝學習環境:
 
 安裝前，請重新啟動Rsession。重新啟動之後，請在R 的Console執行以下指令：
 
+#### 使用 Github Repository
+
 ```r
 source("http://taiwanrusergroup.github.io/R/init.R")
 ```
@@ -76,6 +78,15 @@ local({
   pkgs.outdated <- package_version(pkgs.local[pkgs, "Version"]) != package_version(pkgs.remote[pkgs, "Version"])
   if (sum(pkgs.outdated) > 0) install.packages(names(which(pkgs.outdated)))
 })
+```
+
+#### 使用 140.112.170.196 Repository
+
+我們準備了分流網站，以避免當天github服務失效：
+
+```r
+options("DSC2015-repo" = "140.112.170.196")
+source("http://140.112.170.196/R/init.R")
 ```
 
 ### 安裝swirl課程
@@ -119,4 +130,7 @@ docker run -d -p 8787:8787 twrusergroup/dsc2015tutorial
 
 ## 使用雲端學習平台
 
-平台籌備中...
+如果上課當天電腦出狀況以至於無法使用R，但仍然有網路連線，可以使用線上寫程式的環境。使用方式：
+
+1. 和助教取得平台邀請碼，邀請碼將寄到電子信箱。
+2. 依照 [http://chihchengliang.github.io/platform-instruction/](http://chihchengliang.github.io/platform-instruction/)的操作說明使用線上平台。
