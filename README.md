@@ -132,5 +132,5 @@ docker run -d -p 8787:8787 twrusergroup/dsc2015tutorial
 
 如果上課當天電腦出狀況以至於無法使用R，但仍然有網路連線，可以使用線上寫程式的環境。使用方式：
 
-1. 和助教取得平台邀請碼，邀請碼將寄到電子信箱。
+1. 請至報名課程使用的電子信箱取得平台註冊邀請網址，網址會在開課前一天晚上寄出。
 2. 依照 [http://chihchengliang.github.io/platform-instruction/](http://chihchengliang.github.io/platform-instruction/)的操作說明使用線上平台。
