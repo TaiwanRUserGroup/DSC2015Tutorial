@@ -98,6 +98,8 @@ install_course()
 
 ### 打開課程投影片
 
+我們建議學員使用firefox作為閱讀投影片的瀏覽器。
+
 ```r
 library(DSC2015R)
 slide()
