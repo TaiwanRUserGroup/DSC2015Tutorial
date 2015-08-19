@@ -1,0 +1,4 @@
+echo "This is unix-like system"
+echo "Copying data ecoded with UTF-8"
+
+cp inst/basic/swirl/DSC2015/R_Basic_Part_0-The_Basics/initLesson-utf8.R inst/basic/swirl/DSC2015/R_Basic_Part_0-The_Basics/initLesson.R
