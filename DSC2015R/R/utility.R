@@ -1,5 +1,8 @@
 pkg_file <- function(...) {
-  system.file(..., package = .packageName)
+  retval <- system.file(..., package = .packageName)
+  retval <- normalizePath(retval)
+  cat(sprintf("%s\n", retval))
+  retval
 }
 
 install_course <- function() {
