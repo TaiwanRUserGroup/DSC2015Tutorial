@@ -136,3 +136,11 @@ docker run -d -p 8787:8787 twrusergroup/dsc2015tutorial
 
 1. 請至報名課程使用的電子信箱取得平台註冊邀請網址，網址會在開課前一天晚上寄出。
 2. 依照 [http://chihchengliang.github.io/platform-instruction/](http://chihchengliang.github.io/platform-instruction/)的操作說明使用線上平台。
+
+## Q&A
+
+如果操作中遇到錯誤，歡迎參考 [Wiki Q&A](https://github.com/TaiwanRUserGroup/DSC2015Tutorial/wiki/Q&A) 的部分來嘗試解決問題。
+
+需要協助的話，上課過程中可以請教助教。如果是自學的朋友，可以 [發Issue](https://github.com/TaiwanRUserGroup/DSC2015Tutorial/issues/new) 詢問管理員，或是和其他網友討論解決。
+
+解決之後，也歡迎直接把解決辦法貢獻到wiki
