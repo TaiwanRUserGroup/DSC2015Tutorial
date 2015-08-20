@@ -9,6 +9,7 @@
         * [Windows](#windows)
         * [Mac](#mac)
         * [Ubuntu](#ubuntu)
+      * [安裝Rstudio](#安裝rstudio)
       * [安裝課程所需套件](#安裝課程所需套件)
       * [安裝swirl課程](#安裝swirl課程)
       * [打開課程投影片](#打開課程投影片)
