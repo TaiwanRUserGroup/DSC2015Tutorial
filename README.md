@@ -1,4 +1,4 @@
-# R 語言資料分析上手課程
+# R 語言資料分析上手課程 [Taiwan R User Group](http://www.meetup.com/Taiwan-R/) <img src="http://i.imgur.com/HrJOsEp.jpg"/ width = 50 height = 50>
 
 目錄
 =================
