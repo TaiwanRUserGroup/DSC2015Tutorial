@@ -56,6 +56,12 @@ Ubuntu 14.04 的使用者可以在 bash 執行以下指令來安裝學習環境:
 
 如果是其他版本的使用者，請修改上述 trusty 的部份。
 
+### 安裝[Rstudio](https://www.rstudio.com/products/RStudio/)
+
+上課時，講師們使用的是Rstudio做講解，這是目前R最好的IDE。
+
+如果學員想要安裝的話，請到[Rstudio Download](https://www.rstudio.com/products/rstudio/download/)依據你的作業系統來安裝課程。
+
 ### 安裝課程所需套件
 
 安裝前，請**重新啟動Rsession**。重新啟動之後，請在R 的Console執行以下指令：
