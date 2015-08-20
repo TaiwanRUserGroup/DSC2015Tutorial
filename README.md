@@ -117,6 +117,10 @@ slide()
 
 ## 使用Docker環境
 
+如果你是熟悉Docker的工程師，我們提供一個Docker Image在網路上給大家使用。
+
+**如果你不知道什麼是Docker，請略過這段**
+
 ```sh
 docker pull twrusergroup/dsc2015tutorial
 docker run -d -p 8787:8787 twrusergroup/dsc2015tutorial
