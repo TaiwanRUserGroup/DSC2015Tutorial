@@ -10,3 +10,21 @@
 [submodule "DSC2015R/inst/etl/swirl"]
 	path = DSC2015R/inst/etl/swirl
 	url = https://github.com/ntuaha/DSC_R_ETL_SWIRL_2015
+[submodule "DSC2015R/inst/show/RTextMining"]
+	path = DSC2015R/inst/show/RTextMining
+	url = https://github.com/whizzalan/RTextMining.git
+[submodule "DSC2015R/inst/show/data.table"]
+	path = DSC2015R/inst/show/data.table
+	url = https://github.com/mansunkuo/dsc2015_data.table.git
+[submodule "DSC2015R/inst/show/baseball"]
+	path = DSC2015R/inst/show/baseball
+	url = https://github.com/suensummit/lightning-DSC2015-R.git
+[submodule "DSC2015R/inst/show/crawler"]
+	path = DSC2015R/inst/show/crawler
+	url = https://github.com/ChihChengLiang/DSC2015_Crawler.git
+[submodule "DSC2015R/inst/show/recharts"]
+	path = DSC2015R/inst/show/recharts
+	url = https://github.com/KuiMing/lightening_recharts.git
+[submodule "DSC2015R/inst/show/rcpp"]
+	path = DSC2015R/inst/show/rcpp
+	url = https://github.com/everdark/rcpp_lightning_dsc2015.git
