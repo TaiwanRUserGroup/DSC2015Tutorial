@@ -1,4 +1,4 @@
-# R 語言資料分析上手課程
+# R 語言資料分析上手課程 [Taiwan R User Group](http://www.meetup.com/Taiwan-R/) <img src="http://i.imgur.com/HrJOsEp.jpg"/ width = 50 height = 50>
 
 目錄
 =================
@@ -9,6 +9,7 @@
         * [Windows](#windows)
         * [Mac](#mac)
         * [Ubuntu](#ubuntu)
+      * [安裝Rstudio](#安裝rstudio)
       * [安裝課程所需套件](#安裝課程所需套件)
       * [安裝swirl課程](#安裝swirl課程)
       * [打開課程投影片](#打開課程投影片)
@@ -56,9 +57,15 @@ Ubuntu 14.04 的使用者可以在 bash 執行以下指令來安裝學習環境:
 
 如果是其他版本的使用者，請修改上述 trusty 的部份。
 
+### 安裝[Rstudio](https://www.rstudio.com/products/RStudio/)
+
+上課時，講師們使用的是Rstudio做講解，這是目前R最好的IDE。
+
+如果學員想要安裝的話，請到[Rstudio Download](https://www.rstudio.com/products/rstudio/download/)依據你的作業系統來安裝課程。
+
 ### 安裝課程所需套件
 
-安裝前，請重新啟動Rsession。重新啟動之後，請在R 的Console執行以下指令：
+安裝前，請**重新啟動Rsession**。重新啟動之後，請在R 的Console執行以下指令：
 
 #### 使用 Github Repository
 
@@ -80,14 +87,7 @@ local({
 })
 ```
 
-#### 使用 140.112.170.196 Repository
-
-我們準備了分流網站，以避免當天github服務失效：
-
-```r
-options("DSC2015-repo" = "140.112.170.196")
-source("http://140.112.170.196/R/init.R")
-```
+（臺大分流已經關閉了）
 
 ### 安裝swirl課程
 
@@ -97,6 +97,8 @@ install_course()
 ```
 
 ### 打開課程投影片
+
+我們建議學員使用firefox作為閱讀投影片的瀏覽器。
 
 ```r
 library(DSC2015R)
@@ -115,6 +117,10 @@ slide()
 
 ## 使用Docker環境
 
+如果你是熟悉Docker的工程師，我們提供一個Docker Image在網路上給大家使用。
+
+**如果你不知道什麼是Docker，請略過這段**
+
 ```sh
 docker pull twrusergroup/dsc2015tutorial
 docker run -d -p 8787:8787 twrusergroup/dsc2015tutorial
@@ -132,5 +138,13 @@ docker run -d -p 8787:8787 twrusergroup/dsc2015tutorial
 
 如果上課當天電腦出狀況以至於無法使用R，但仍然有網路連線，可以使用線上寫程式的環境。使用方式：
 
-1. 和助教取得平台邀請碼，邀請碼將寄到電子信箱。
+1. 請至報名課程使用的電子信箱取得平台註冊邀請網址，網址會在開課前一天晚上寄出。
 2. 依照 [http://chihchengliang.github.io/platform-instruction/](http://chihchengliang.github.io/platform-instruction/)的操作說明使用線上平台。
+
+## Q&A
+
+如果操作中遇到錯誤，歡迎參考 [Wiki Q&A](https://github.com/TaiwanRUserGroup/DSC2015Tutorial/wiki/Q&A) 的部分來嘗試解決問題。
+
+需要協助的話，上課過程中可以請教助教。如果是自學的朋友，可以 [發Issue](https://github.com/TaiwanRUserGroup/DSC2015Tutorial/issues/new) 詢問管理員，或是和其他網友討論解決。
+
+解決之後，也歡迎直接把解決辦法貢獻到wiki
